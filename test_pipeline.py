@@ -13,7 +13,7 @@ import nltk
 nltk.download = lambda *args, **kwargs: None
 
 # Imports from src/
-from src import data_ingestion as di
+#from src import data_ingestion as di
 from src import data_preprocessing as dp
 from src import feature_engineering as fe
 from src import model_building as mb
