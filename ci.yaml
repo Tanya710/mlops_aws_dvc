@@ -19,6 +19,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest scikit-learn pandas pyyaml nltk dvclive mlflow
-      #- name: Run tests
-       # run: pytest -v
+      - name: Run tests
+        run: pytest -v
+
 
